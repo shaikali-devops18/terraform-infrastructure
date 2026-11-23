@@ -1,0 +1,18 @@
+# Terraform cache
+**/.terraform/
+.terraform.d/
+
+# Terraform state and variables
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Linux user files
+.ssh/
+.bashrc
+.bash_profile
+.bash_logout
+.cshrc
+.tcshrc
+.viminfo
